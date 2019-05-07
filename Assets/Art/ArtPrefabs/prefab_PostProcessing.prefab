@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3016176643173795880}
   - component: {fileID: 6688621149509186725}
   m_Layer: 8
-  m_Name: PostProcessing
+  m_Name: prefab_PostProcessing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
