@@ -23,12 +23,21 @@ public class Transporter : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Transform cur = mainCamera.CurrentRoom();
-
-            if (cur == rooms[0])
+            if (other.transform.position.x > transform.position.x)
                 mainCamera.ChangeRoom(rooms[1]);
-            else
+            else if (other.bounds.max.x < transform.position.x)
                 mainCamera.ChangeRoom(rooms[0]);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            if (other.transform.position.x > transform.position.x)
+                mainCamera.ChangeRoom(rooms[0]);
+            else if (other.bounds.max.x < transform.position.x)
+                mainCamera.ChangeRoom(rooms[1]);
         }
     }
 }
