@@ -15,7 +15,9 @@ public class script_ac_Chest : MonoBehaviour
 
     void Update()
     {
-        if (bool_ChestOpen == true) comp_Animator.SetBool("bool_ChestOpen", true);
-        else comp_Animator.SetBool("bool_ChestOpen", false);
+        //if (bool_ChestOpen == true) comp_Animator.SetBool("bool_ChestOpen", true);
+        //else comp_Animator.SetBool("bool_ChestOpen", false);
+
+        comp_Animator.SetBool("bool_ChestOpen", bool_ChestOpen);
     }
 }

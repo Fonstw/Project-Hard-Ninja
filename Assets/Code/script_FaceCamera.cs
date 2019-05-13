@@ -24,10 +24,12 @@ public class script_FaceCamera : MonoBehaviour
                 return Vector3.left;
             case Axis.right:
                 return Vector3.right;
+            default:
+                return Vector3.up;
         }
 
         // default is Vector3.up
-        return Vector3.up;
+        //return Vector3.up;
     }
 
     void Awake()
