@@ -40,7 +40,7 @@ public class PlayerMove : MonoBehaviour
         }
 
         if (rb.velocity.y < 0)
-            rb.AddForce(-Vector3.up * fall);
+            rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y*fall, rb.velocity.z);
     }
 
     private void OnCollisionEnter(Collision collision)

@@ -1,13 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CameraBehaviour : MonoBehaviour
 {
     [SerializeField] Transform target;
     Vector3 startPos;
-
-    // Start is called before the first frame update
+    
     void Start()
     {
         if (target != null)
@@ -15,8 +12,7 @@ public class CameraBehaviour : MonoBehaviour
         else
             Debug.LogWarning("Please set " + name + "'s CameraBehaviour.target.");
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         

@@ -1,25 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
     [SerializeField] float walkSpeed = 5;
     [SerializeField] float runSpeed = 8;
     [SerializeField] Transform myVisionLight;
+    [SerializeField] float groundDistance = 2f;
     float speed;
     bool right = true;
     Rigidbody rb;
-
-    // Start is called before the first frame update
+    
     void Start()
     {
         speed = walkSpeed;
 
         rb = GetComponent<Rigidbody>();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         Patrol();
@@ -42,17 +39,17 @@ public class EnemyBehaviour : MonoBehaviour
     bool StillFloor()
     {
         if (right)
-        {
-            Debug.DrawRay(transform.position, new Vector3(2, -2));
+        //{
+        //    Debug.DrawRay(transform.position, new Vector3(groundDistance, -groundDistance));
 
-            return Physics.Raycast(transform.position, new Vector3(1, -1), 2);
-        }
+            return Physics.Raycast(transform.position, new Vector3(1, -1), groundDistance);
+        //}
         else
-        {
-            Debug.DrawRay(transform.position, new Vector3(-2, -2));
+        //{
+        //    Debug.DrawRay(transform.position, new Vector3(-groundDistance, -groundDistance));
 
-            return Physics.Raycast(transform.position, new Vector3(-1, -1), 2);
-        }
+            return Physics.Raycast(transform.position, new Vector3(-1, -1), groundDistance);
+        //}
     }
 
     private void OnTriggerStay(Collider other)
