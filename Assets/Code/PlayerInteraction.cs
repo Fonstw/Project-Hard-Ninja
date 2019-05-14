@@ -56,7 +56,7 @@ public class PlayerInteraction : MonoBehaviour
     
     void Update()
     {
-        if (transform.position.y < -150)
+        if (transform.position.y < -15)
             Die();
     }
 

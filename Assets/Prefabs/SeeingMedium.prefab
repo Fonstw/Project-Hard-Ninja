@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6851949255850180135}
   m_LocalRotation: {x: 0.49999997, y: 0.5, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.4242641, y: 0.4242641, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6851949256628036081}
@@ -42,8 +42,8 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 1000
-  m_Range: 10
+  m_Intensity: 100
+  m_Range: 1
   m_SpotAngle: 45
   m_InnerSpotAngle: 4
   m_CookieSize: 10
@@ -84,7 +84,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1000
+  m_BounceIntensity: 100
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 6851949256628036079}
   - component: {fileID: 6851949256628036080}
   m_Layer: 0
-  m_Name: Seeing Enemy
+  m_Name: SeeingMedium
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,8 +121,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6851949256628036082}
   m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: -15, y: -17.75, z: -1}
-  m_LocalScale: {x: 3, y: 3, z: 2}
+  m_LocalPosition: {x: 0, y: 0, z: -0.15}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 6851949255850180134}
   m_Father: {fileID: 0}
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64072073e3ea8174588709652c47dadf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 12
-  runSpeed: 23
+  walkSpeed: 1.2
+  runSpeed: 2.3
   myVisionLight: {fileID: 6851949255850180134}
-  groundDistance: 4.24264
+  groundDistance: 0.4242641

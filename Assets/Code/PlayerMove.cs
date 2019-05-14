@@ -4,7 +4,6 @@ public class PlayerMove : MonoBehaviour
 {
     [SerializeField] float speed = 5;
     [SerializeField] float jump = 100;
-    [SerializeField] float fall = 2;
     Rigidbody rb;
     bool grounded = true;
 
@@ -35,9 +34,6 @@ public class PlayerMove : MonoBehaviour
 
             rb.AddForce(Vector3.up * jump, ForceMode.Impulse);
         }
-
-        if (rb.velocity.y < 0)
-            rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y*fall, rb.velocity.z);
     }
 
     private void OnCollisionEnter(Collision collision)
