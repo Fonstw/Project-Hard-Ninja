@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -26,7 +23,7 @@ public class PlayerMove : MonoBehaviour
 
     void Walk()
     {
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0);
+        Vector3 move = new Vector3(Input.GetAxis("Move"), 0);
         rb.MovePosition(transform.position + move * speed * Time.deltaTime);
     }
 
@@ -47,7 +44,5 @@ public class PlayerMove : MonoBehaviour
     {
         if (collision.gameObject.tag == "Floor")
             grounded = true;
-        else if (collision.gameObject.tag == "Enemy")
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

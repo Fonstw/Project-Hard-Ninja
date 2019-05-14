@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5844936621384355942}
   - component: {fileID: 1643202735059070731}
   - component: {fileID: 1643202735059070730}
+  - component: {fileID: 7522923049350318927}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -124,3 +125,21 @@ MonoBehaviour:
   speed: 18
   jump: 13
   fall: 1.14
+--- !u!114 &7522923049350318927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643202735059070729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b067b2e64dc914a4191dbfc3d74595a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxLives: 0
+  maxStamina: 0
+  pickaxe: 0
+  shoes: 0
+  invincibility: 0
+  beardTier: 0
