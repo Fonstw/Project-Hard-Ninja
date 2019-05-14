@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e38b9dd30bd3c4946bd26c479ee3f3ac
+guid: 183b7b923a5508f4e89e4d7dbd6e27b0
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Wood
-    second: {fileID: 2100000, guid: b61701516736d0a4e8bf91bdb8d755e7, type: 2}
+    second: {fileID: 2100000, guid: 0eea9145d58306c41acc98e0b707d400, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -67,7 +67,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

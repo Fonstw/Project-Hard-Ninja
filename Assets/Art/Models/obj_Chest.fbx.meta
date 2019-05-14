@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bfb6e34bce2e1324d8276d56bdd8e323
+guid: a9f1288cd101d2e47b114ecdb8480f05
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable:
@@ -14,27 +14,42 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Dark
-    second: {fileID: 2100000, guid: 3e5db516e83bdf04d907f20e39c7f4f3, type: 2}
+    second: {fileID: 2100000, guid: c49864d94400363479c3aae857338ce3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_Emerald
+    second: {fileID: 2100000, guid: 856f2481ad1f51d469d62475b138012f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Gold
-    second: {fileID: 2100000, guid: ffdd4301293b1bb418e8ff939fc6c872, type: 2}
+    second: {fileID: 2100000, guid: b62096461da2b2c4cabb8f417c36748a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Metal
-    second: {fileID: 2100000, guid: 839da7184d358154692f0b8663c6abe9, type: 2}
+    second: {fileID: 2100000, guid: 0f9b49eefd24163438e81fcb3e978bc0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_MetalDark
-    second: {fileID: 2100000, guid: 597cb69bc7bdd97438d0c88030a6f52a, type: 2}
+    second: {fileID: 2100000, guid: 0f9b49eefd24163438e81fcb3e978bc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_Ruby
+    second: {fileID: 2100000, guid: 2d5d046b61175974a882beb97df4853d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_Topaz
+    second: {fileID: 2100000, guid: d1b543e847180a642b1b94618447a6be, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Wood
-    second: {fileID: 2100000, guid: b61701516736d0a4e8bf91bdb8d755e7, type: 2}
+    second: {fileID: 2100000, guid: 0eea9145d58306c41acc98e0b707d400, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -54,7 +69,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -123,7 +138,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.25
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -169,10 +184,10 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.25
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
