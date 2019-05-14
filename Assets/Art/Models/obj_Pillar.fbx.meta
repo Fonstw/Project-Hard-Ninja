@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5b7efd87223fa724499e37cd4bdc634c
+guid: 02d5e73343050f740bb49dd05492d825
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
@@ -8,27 +8,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Gold
-    second: {fileID: 2100000, guid: ffdd4301293b1bb418e8ff939fc6c872, type: 2}
+    second: {fileID: 2100000, guid: b62096461da2b2c4cabb8f417c36748a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Metal
-    second: {fileID: 2100000, guid: 839da7184d358154692f0b8663c6abe9, type: 2}
+    second: {fileID: 2100000, guid: 0f9b49eefd24163438e81fcb3e978bc0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Ruby
-    second: {fileID: 2100000, guid: 1edbd250342340f42ace55f98325c5f6, type: 2}
+    second: {fileID: 2100000, guid: 2d5d046b61175974a882beb97df4853d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Stone
-    second: {fileID: 2100000, guid: dbd17719d2b32cd499972aaf9879a571, type: 2}
+    second: {fileID: 2100000, guid: d393c09fd3b544d4db860a2f98b5dd23, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Stone2
-    second: {fileID: 2100000, guid: 0b134cf7cd83f254687512cab1282a59, type: 2}
+    second: {fileID: 2100000, guid: b1116f87605e46c49b8b64302b83f418, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -82,7 +82,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

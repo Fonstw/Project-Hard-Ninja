@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1e1c814ccdb27a642b9592a9873794fa
+guid: 4ddaa70e8cb937643867b8d78db6107c
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
@@ -13,17 +13,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Glow
-    second: {fileID: 2100000, guid: 3e5db516e83bdf04d907f20e39c7f4f3, type: 2}
+    second: {fileID: 2100000, guid: 0eea9145d58306c41acc98e0b707d400, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Metal
-    second: {fileID: 2100000, guid: 839da7184d358154692f0b8663c6abe9, type: 2}
+    second: {fileID: 2100000, guid: 0f9b49eefd24163438e81fcb3e978bc0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_Wood
-    second: {fileID: 2100000, guid: b61701516736d0a4e8bf91bdb8d755e7, type: 2}
+    second: {fileID: 2100000, guid: 0eea9145d58306c41acc98e0b707d400, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -54,7 +54,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1.5
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -77,7 +77,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -100,7 +100,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1.5
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

@@ -48,7 +48,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 848410040417050776, guid: bfb6e34bce2e1324d8276d56bdd8e323, type: 3}
+  m_Motion: {fileID: 848410040417050776, guid: a9f1288cd101d2e47b114ecdb8480f05, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -75,7 +75,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 2575629752142891834, guid: bfb6e34bce2e1324d8276d56bdd8e323,
+  m_Motion: {fileID: 2575629752142891834, guid: a9f1288cd101d2e47b114ecdb8480f05,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -91,7 +91,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: bool_ChestOpen
+    m_ConditionEvent: bool_Toggle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -204051946304221823}
@@ -116,7 +116,7 @@ AnimatorController:
   m_Name: ac_Chest
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: bool_ChestOpen
+  - m_Name: bool_Toggle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -144,7 +144,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: bool_ChestOpen
+    m_ConditionEvent: bool_Toggle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -188248393154389447}
@@ -177,7 +177,7 @@ AnimatorStateMachine:
     m_Position: {x: 90, y: 200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -188248393154389447}
-    m_Position: {x: 310, y: 200, z: 0}
+    m_Position: {x: 370, y: 200, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -197,7 +197,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: bool_ChestOpen
+    m_ConditionEvent: bool_Toggle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -204051946304221823}
