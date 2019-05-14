@@ -20,12 +20,9 @@ public class EnemyBehaviour : MonoBehaviour
     void Update()
     {
         Patrol();
-
-        if (!StillFloor())
-        {
-            right = !right;
-            myVisionLight.Rotate(0, 180, 0, Space.World);
-        }
+        
+        if (WhatISee() != "Floor")
+            Turn();
     }
 
     void Patrol()
@@ -36,20 +33,30 @@ public class EnemyBehaviour : MonoBehaviour
             rb.MovePosition(transform.position - Vector3.right * speed * Time.deltaTime);
     }
 
-    bool StillFloor()
+    string WhatISee()
     {
         if (right)
-        //{
-        //    Debug.DrawRay(transform.position, new Vector3(groundDistance, -groundDistance));
+        {
+            Debug.DrawRay(transform.position, new Vector3(groundDistance, -groundDistance));
 
-            return Physics.Raycast(transform.position, new Vector3(1, -1), groundDistance);
-        //}
+            if (Physics.Raycast(transform.position, new Vector3(1, -1), out RaycastHit hit, groundDistance))
+                return hit.collider.tag;
+        }
         else
-        //{
-        //    Debug.DrawRay(transform.position, new Vector3(-groundDistance, -groundDistance));
+        {
+            Debug.DrawRay(transform.position, new Vector3(-groundDistance, -groundDistance));
 
-            return Physics.Raycast(transform.position, new Vector3(-1, -1), groundDistance);
-        //}
+            if (Physics.Raycast(transform.position, new Vector3(-1, -1), out RaycastHit hit, groundDistance))
+                return hit.collider.tag;
+        }
+
+        return "";
+    }
+
+    void Turn()
+    {
+        right = !right;
+        myVisionLight.Rotate(0, 180, 0, Space.World);
     }
 
     private void OnTriggerStay(Collider other)
@@ -72,5 +79,11 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (other.tag == "Player")
             speed = walkSpeed;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+            Turn();
     }
 }
