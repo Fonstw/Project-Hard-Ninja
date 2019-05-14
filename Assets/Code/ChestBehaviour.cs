@@ -11,7 +11,7 @@ public class ChestBehaviour : MonoBehaviour
     {
         if (!used && Input.GetButtonDown("Jump") && other.tag == "Player")
         {
-            GetComponent<script_ac_Chest>().bool_ChestOpen = true;
+            GetComponent<script_ac>().bool_Toggle = true;
 
             if (givesPickaxe) other.GetComponent<PlayerInteraction>().GainPickaxe();
             if (givesShoes) other.GetComponent<PlayerInteraction>().GainShoes();
