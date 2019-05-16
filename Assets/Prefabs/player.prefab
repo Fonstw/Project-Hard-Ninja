@@ -124,7 +124,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.8
   jump: 4.7
-  fall: 1
 --- !u!114 &7522923049350318927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,6 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b067b2e64dc914a4191dbfc3d74595a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  demoMode: 0
   maxLives: 0
   maxStamina: 0
   pickaxe: 0

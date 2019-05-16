@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerInteraction : MonoBehaviour
 {
+    [SerializeField] bool demoMode;
+
     public enum BeardTier { none = 0, stubble = 1, hipster = 2, viking = 3 };
 
     [SerializeField] float maxLives, maxStamina;
@@ -14,11 +16,11 @@ public class PlayerInteraction : MonoBehaviour
     void Start()
     {
         // set playerprefs
-        if (PlayerPrefs.GetInt("pickaxe", -1) == -1)
+        if (demoMode || PlayerPrefs.GetInt("pickaxe", -1) == -1)
             PlayerPrefs.SetInt("pickaxe", 0);
-        if (PlayerPrefs.GetInt("shoes", -1) == -1)
+        if (demoMode || PlayerPrefs.GetInt("shoes", -1) == -1)
             PlayerPrefs.SetInt("shoes", 0);
-        if (PlayerPrefs.GetInt("beardTier", -1) == -1)
+        if (demoMode || PlayerPrefs.GetInt("beardTier", -1) == -1)
             PlayerPrefs.SetInt("beardTier", 0);
 
         // set abilities
