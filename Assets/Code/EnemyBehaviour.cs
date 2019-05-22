@@ -5,6 +5,7 @@ public class EnemyBehaviour : MonoBehaviour
     [SerializeField] float walkSpeed = 5;
     [SerializeField] float runSpeed = 8;
     [SerializeField] Transform myVisionLight;
+    [SerializeField] Transform monsterMesh;
     [SerializeField] float groundDistance = 2f;
     float speed;
     bool right = true;
@@ -57,6 +58,7 @@ public class EnemyBehaviour : MonoBehaviour
     {
         right = !right;
         myVisionLight.Rotate(0, 180, 0, Space.World);
+        monsterMesh.Rotate(0,180,0, Space.World);
     }
 
     private void OnTriggerStay(Collider other)
