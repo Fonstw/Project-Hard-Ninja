@@ -58,7 +58,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: d393c09fd3b544d4db860a2f98b5dd23, type: 2}
-  - {fileID: 2100000, guid: 9c0cfff2b08960140b880e672faaf1cf, type: 2}
+  - {fileID: 2100000, guid: 8f0909799f1030542835072a91fc8628, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -113,7 +113,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
         type: 3}
@@ -123,7 +123,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
         type: 3}
@@ -138,7 +138,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
         type: 3}
@@ -148,26 +148,19 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: -1504981713932161579, guid: d2085d06ba7924e4a82bfb51959cd6bf,
-        type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 9c0cfff2b08960140b880e672faaf1cf, type: 2}
-    m_RemovedComponents:
-    - {fileID: -5178661895559278292, guid: d2085d06ba7924e4a82bfb51959cd6bf, type: 3}
-    - {fileID: -1504981713932161579, guid: d2085d06ba7924e4a82bfb51959cd6bf, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2085d06ba7924e4a82bfb51959cd6bf, type: 3}
 --- !u!4 &932536633021914148 stripped
 Transform:
