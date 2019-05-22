@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: d2085d06ba7924e4a82bfb51959cd6bf,
         type: 3}
       propertyPath: m_Name
-      value: moball
+      value: prefab_monster_ball
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
         type: 3}
@@ -66,6 +66,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d2085d06ba7924e4a82bfb51959cd6bf,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8.5
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: d2085d06ba7924e4a82bfb51959cd6bf,
         type: 3}

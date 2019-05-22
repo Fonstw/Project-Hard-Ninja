@@ -38,11 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-<<<<<<< HEAD
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
-=======
   m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
->>>>>>> master
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2148,6 +2144,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 9201196466410865427, guid: 9b7a6479959a3864fadeeb63ec05c55e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9201196466410865426, guid: 9b7a6479959a3864fadeeb63ec05c55e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2527,6 +2528,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201196466410865427, guid: 9b7a6479959a3864fadeeb63ec05c55e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9201196466410865426, guid: 9b7a6479959a3864fadeeb63ec05c55e,
         type: 3}
@@ -3499,6 +3505,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201196466410865427, guid: 9b7a6479959a3864fadeeb63ec05c55e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9201196466410865426, guid: 9b7a6479959a3864fadeeb63ec05c55e,
         type: 3}
@@ -4986,6 +4997,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201196466410865427, guid: 9b7a6479959a3864fadeeb63ec05c55e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9201196466410865426, guid: 9b7a6479959a3864fadeeb63ec05c55e,
         type: 3}
@@ -9189,6 +9205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 9201196466410865427, guid: 9b7a6479959a3864fadeeb63ec05c55e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9201196466410865426, guid: 9b7a6479959a3864fadeeb63ec05c55e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9482,7 +9503,7 @@ PrefabInstance:
     - target: {fileID: 1643202735059070730, guid: 63537d789e839df44982ff95301fbf28,
         type: 3}
       propertyPath: jump
-      value: 4.7
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63537d789e839df44982ff95301fbf28, type: 3}
