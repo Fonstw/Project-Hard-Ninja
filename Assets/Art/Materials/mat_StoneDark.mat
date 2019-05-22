@@ -303,7 +303,7 @@ Material:
     - _ZTestModeDistortion: 4
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+    - _BaseColor: {r: 0.14150932, g: 0.14150932, b: 0.14150932, a: 0.91646814}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0.14150935, g: 0.14150935, b: 0.14150935, a: 0.91646814}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}

@@ -10,22 +10,47 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
         type: 3}
       propertyPath: m_Name
-      value: prefab_deco_wallmushroom
+      value: artPrefab_Mushroom_Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: -7636067738703509489, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.586
+      objectReference: {fileID: 0}
+    - target: {fileID: -7636067738703509489, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7636067738703509489, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7636067738703509489, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7636067738703509489, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.239455
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
         type: 3}
@@ -35,7 +60,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
         type: 3}
@@ -45,7 +70,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
         type: 3}
@@ -60,7 +85,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7a5bf2b71bad03b499ee4d04fc8e48c6,
         type: 3}

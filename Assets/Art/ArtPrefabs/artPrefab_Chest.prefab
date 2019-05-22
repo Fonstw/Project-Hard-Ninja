@@ -134,8 +134,8 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 1.5
-      minScalar: 0.5
+      scalar: 2
+      minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -625,7 +625,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1560,8 +1560,8 @@ ParticleSystem:
     y:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 1
-      minScalar: 3
+      scalar: 0
+      minScalar: 5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1984,8 +1984,8 @@ ParticleSystem:
     radial:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 2
-      minScalar: 1
+      scalar: 1.5
+      minScalar: 0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -2369,7 +2369,7 @@ ParticleSystem:
       m_Bits: 4294967295
     influenceList: []
   ClampVelocityModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -2586,7 +2586,7 @@ ParticleSystem:
     inWorldSpace: 0
     multiplyDragByParticleSize: 1
     multiplyDragByParticleVelocity: 1
-    dampen: 0.01
+    dampen: 0
     drag:
       serializedVersion: 2
       minMaxState: 0
@@ -3590,8 +3590,8 @@ ParticleSystem:
     m_Dampen:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.25
-      minScalar: 0.125
+      scalar: 0.5
+      minScalar: 0.25
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -3643,7 +3643,7 @@ ParticleSystem:
     m_Bounce:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 1
+      scalar: 1.25
       minScalar: 0.75
       maxCurve:
         serializedVersion: 2
@@ -4712,7 +4712,7 @@ ParticleSystem:
 --- !u!199 &7582652193311467430
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4813,8 +4813,8 @@ Light:
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 1, g: 0.5, b: 0, a: 1}
-  m_Intensity: 0.025
-  m_Range: 0.5
+  m_Intensity: 1
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -4869,11 +4869,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2263467028957731547}
     m_Modifications:
-    - target: {fileID: -6057140222963153312, guid: a9f1288cd101d2e47b114ecdb8480f05,
+    - target: {fileID: -927199367670048503, guid: a9f1288cd101d2e47b114ecdb8480f05,
         type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 222c54c909b73064298f1ac35ef3d339, type: 2}
+      propertyPath: m_Name
+      value: obj_Chest
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a9f1288cd101d2e47b114ecdb8480f05,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4929,26 +4929,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: a9f1288cd101d2e47b114ecdb8480f05,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: a9f1288cd101d2e47b114ecdb8480f05,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: a9f1288cd101d2e47b114ecdb8480f05,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: a9f1288cd101d2e47b114ecdb8480f05,
-        type: 3}
-      propertyPath: m_Name
-      value: obj_Chest
-      objectReference: {fileID: 0}
     - target: {fileID: 3988486345089561989, guid: a9f1288cd101d2e47b114ecdb8480f05,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -4969,6 +4949,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: a9f1288cd101d2e47b114ecdb8480f05,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 222c54c909b73064298f1ac35ef3d339, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9f1288cd101d2e47b114ecdb8480f05, type: 3}
 --- !u!1 &4761801954242526164 stripped
