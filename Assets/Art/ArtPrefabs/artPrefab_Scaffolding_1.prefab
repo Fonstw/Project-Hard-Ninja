@@ -9,8 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7262914890002660174}
+  - component: {fileID: 3088483384698895528}
   m_Layer: 0
-  m_Name: prefab_Scaffolding_1
+  m_Name: artPrefab_Scaffolding_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,19 +32,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6141786983360040493
+--- !u!65 &3088483384698895528
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9087154135145012180}
+  m_GameObject: {fileID: 6968157322834224415}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.012303192, y: 0.006288805, z: 0.0004959117}
-  m_Center: {x: -0.00021714508, y: 5.960465e-10, z: 0.0054674316}
+  m_Size: {x: 1.3, y: 0.05, z: 0.7}
+  m_Center: {x: 0, y: 0.55, z: 0}
 --- !u!1001 &954168955940176605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -103,12 +104,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e1f2bc78283e184692699776f30236d, type: 3}
---- !u!1 &9087154135145012180 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 8e1f2bc78283e184692699776f30236d,
-    type: 3}
-  m_PrefabInstance: {fileID: 954168955940176605}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5208227506646985159 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 8e1f2bc78283e184692699776f30236d,
