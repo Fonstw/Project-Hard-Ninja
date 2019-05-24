@@ -1684,7 +1684,7 @@ PrefabInstance:
     - target: {fileID: 1252074289670105284, guid: d1228e45da01d824eaeab32eb6525441,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.49
+      value: -8.13
       objectReference: {fileID: 0}
     - target: {fileID: 1252074289670105284, guid: d1228e45da01d824eaeab32eb6525441,
         type: 3}
@@ -1809,7 +1809,7 @@ PrefabInstance:
     - target: {fileID: 6851949256628036081, guid: e6bc913a9b64c05418a049305b14c379,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.024
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6851949256628036081, guid: e6bc913a9b64c05418a049305b14c379,
         type: 3}
@@ -8037,7 +8037,7 @@ PrefabInstance:
     - target: {fileID: 1252074289670105284, guid: f8f1e2898853d4143a3709b90a2e3a5d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.8499985
+      value: -2.3999977
       objectReference: {fileID: 0}
     - target: {fileID: 1252074289670105284, guid: f8f1e2898853d4143a3709b90a2e3a5d,
         type: 3}
@@ -8567,7 +8567,7 @@ PrefabInstance:
     - target: {fileID: 6851949256628036082, guid: e6bc913a9b64c05418a049305b14c379,
         type: 3}
       propertyPath: m_Name
-      value: Seeing/Medium
+      value: devPrefab_enemy_seeer
       objectReference: {fileID: 0}
     - target: {fileID: 6851949256628036081, guid: e6bc913a9b64c05418a049305b14c379,
         type: 3}
@@ -8577,7 +8577,7 @@ PrefabInstance:
     - target: {fileID: 6851949256628036081, guid: e6bc913a9b64c05418a049305b14c379,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.515
+      value: 0.548
       objectReference: {fileID: 0}
     - target: {fileID: 6851949256628036081, guid: e6bc913a9b64c05418a049305b14c379,
         type: 3}
@@ -9892,7 +9892,7 @@ PrefabInstance:
     - target: {fileID: 1252074289670105284, guid: d1228e45da01d824eaeab32eb6525441,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.49
+      value: -8.130002
       objectReference: {fileID: 0}
     - target: {fileID: 1252074289670105284, guid: d1228e45da01d824eaeab32eb6525441,
         type: 3}
@@ -11755,7 +11755,7 @@ PrefabInstance:
     - target: {fileID: 1252074289670105284, guid: 8f155989c0f1f424b978360ec388766f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.8200006
+      value: -2.37
       objectReference: {fileID: 0}
     - target: {fileID: 1252074289670105284, guid: 8f155989c0f1f424b978360ec388766f,
         type: 3}
@@ -13049,7 +13049,7 @@ PrefabInstance:
     - target: {fileID: 1252074289670105284, guid: bf06bc933df809245aa0827d03f39837,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.239999
+      value: -7.880001
       objectReference: {fileID: 0}
     - target: {fileID: 1252074289670105284, guid: bf06bc933df809245aa0827d03f39837,
         type: 3}
@@ -13710,7 +13710,7 @@ PrefabInstance:
     - target: {fileID: 1252074289670105284, guid: f8f1e2898853d4143a3709b90a2e3a5d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.249998
+      value: -7.8900003
       objectReference: {fileID: 0}
     - target: {fileID: 1252074289670105284, guid: f8f1e2898853d4143a3709b90a2e3a5d,
         type: 3}
@@ -14842,7 +14842,7 @@ PrefabInstance:
     - target: {fileID: 6851949256628036082, guid: e6bc913a9b64c05418a049305b14c379,
         type: 3}
       propertyPath: m_Name
-      value: Seeing/Medium
+      value: devPrefab_enemy_seeer
       objectReference: {fileID: 0}
     - target: {fileID: 6851949256628036081, guid: e6bc913a9b64c05418a049305b14c379,
         type: 3}
@@ -14905,12 +14905,12 @@ PrefabInstance:
     - target: {fileID: 6710873493530186769, guid: 63537d789e839df44982ff95301fbf28,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.263
+      value: 1.956
       objectReference: {fileID: 0}
     - target: {fileID: 6710873493530186769, guid: 63537d789e839df44982ff95301fbf28,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.591
+      value: -0.694
       objectReference: {fileID: 0}
     - target: {fileID: 6710873493530186769, guid: 63537d789e839df44982ff95301fbf28,
         type: 3}

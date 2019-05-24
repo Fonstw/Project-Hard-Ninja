@@ -8,9 +8,11 @@ public class script_Enemy_Seeer : MonoBehaviour
     public float f_patrolDistance = 1f;
     public float f_baseSpeed = .2f;
     public float f_runSpeedMultiplier = 1.5f;
+    public float f_rotateSpeed = 5f;
     public float f_baseStareTimer = 5f; //how long to keep staring at the player when seeing player but not moving.
     float f_stareTimer;
     public bool b_moving = true;
+    public bool b_turning = false;
     public bool b_movingRight = true;
     public bool b_seesPlayer = false;
     public bool b_chasingPlayer = false;
@@ -102,19 +104,12 @@ public class script_Enemy_Seeer : MonoBehaviour
     {
         float f_currentSpeed;
         if (b_moving)
+        {
             if (b_chasingPlayer) f_currentSpeed = f_baseSpeed * f_runSpeedMultiplier;
             else f_currentSpeed = f_baseSpeed;
-        else f_currentSpeed = 0f;
 
-        if (b_movingRight)
-        {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-            comp_rigidbody.MovePosition(transform.position + Vector3.right * f_currentSpeed * Time.deltaTime);
-        }
-        else
-        {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-            comp_rigidbody.MovePosition(transform.position + Vector3.left * f_currentSpeed * Time.deltaTime);
+            if (b_movingRight) comp_rigidbody.MovePosition(transform.position + Vector3.right * f_currentSpeed * Time.deltaTime);
+            else comp_rigidbody.MovePosition(transform.position + Vector3.left * f_currentSpeed * Time.deltaTime);
         }
 
         //turn the enemy around when he goes beyond his patrol distance.
@@ -123,7 +118,7 @@ public class script_Enemy_Seeer : MonoBehaviour
             if (b_seesPlayer && f_stareTimer > 0f) b_moving = false;
             else
             {
-                b_moving = true;
+                b_turning = true;
                 b_movingRight = true;
                 f_stareTimer = f_baseStareTimer;
             }
@@ -131,9 +126,36 @@ public class script_Enemy_Seeer : MonoBehaviour
             if (b_seesPlayer && f_stareTimer > 0f) b_moving = false;
             else
             {
-                b_moving = true;
+                b_turning = true;
                 b_movingRight = false;
                 f_stareTimer = f_baseStareTimer;
             }
+
+        //everything for turning around
+        if (b_turning)
+        {
+            b_moving = false;
+
+            //turn from left to right
+            if (b_movingRight)
+            {
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, 0, 0), f_rotateSpeed);
+                if (transform.rotation.y == Quaternion.Euler(0,0,0).y)
+                {
+                    b_turning = false;
+                    b_moving = true;
+                }
+            }
+            //turn from right to left
+            else if (!b_movingRight)
+            {
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, -180, 0), f_rotateSpeed);
+                if (transform.rotation.y <= Quaternion.Euler(0, -180, 0).y)
+                {
+                    b_turning = false;
+                    b_moving = true;
+                }
+            }
+        }
     }
 }
