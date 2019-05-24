@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7607638573114081261}
   m_Layer: 0
   m_Name: devPrefab_ScaffoldingSuspended_1
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52,6 +52,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1252074289670105284}
     m_Modifications:
+    - target: {fileID: 7363075981368255623, guid: 7a2d1645d1e693742954af035c988a84,
+        type: 3}
+      propertyPath: m_Name
+      value: artPrefab_ScaffoldingSuspended_1
+      objectReference: {fileID: 0}
     - target: {fileID: 1220270369644052479, guid: 7a2d1645d1e693742954af035c988a84,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -106,11 +111,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7363075981368255623, guid: 7a2d1645d1e693742954af035c988a84,
-        type: 3}
-      propertyPath: m_Name
-      value: artPrefab_ScaffoldingSuspended_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a2d1645d1e693742954af035c988a84, type: 3}

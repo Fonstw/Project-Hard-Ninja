@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8103940619154865675}
   - component: {fileID: 4220396110352222978}
   m_Layer: 0
-  m_Name: Side
+  m_Name: devPrefab_Structure_Slope
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
