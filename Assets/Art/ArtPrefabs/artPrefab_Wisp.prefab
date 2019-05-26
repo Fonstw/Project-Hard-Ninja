@@ -42,8 +42,8 @@ Light:
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 0, g: 1, b: 0.81251574, a: 1}
-  m_Intensity: 15
-  m_Range: 10
+  m_Intensity: 5
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -84,7 +84,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -9607,10 +9607,8 @@ GameObject:
   - component: {fileID: 5943681087734129557}
   - component: {fileID: 1613485739418211486}
   - component: {fileID: 1112994887704164740}
-  - component: {fileID: 3766567305008616205}
-  - component: {fileID: 7482148449929039368}
   m_Layer: 0
-  m_Name: prefab_Wisp
+  m_Name: artPrefab_Wisp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9659,7 +9657,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e2b4a3705f7147f42ad57f707cfca6bc, type: 2}
+  - {fileID: 2100000, guid: 671e29347bf9fd74788e78ab8eb69643, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9692,40 +9690,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3766567305008616205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4150261675161141463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 842acf7017b806e428d0642abd2d5866, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  comp_PathToFollow: {fileID: 0}
-  i_CurrentWaypointID: 0
-  f_BaseSpeed: 0
-  f_ReachDistance: 1
-  f_RotationSpeed: 5
-  string_PathName: 
-  b_ReversePath: 0
-  b_Patrol: 0
-  b_DeleteOnEnd: 0
-  b_Paused: 0
---- !u!114 &7482148449929039368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4150261675161141463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 015036b39a6bccf48b4b40503e5b5ea5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5354161899211746038
 GameObject:
   m_ObjectHideFlags: 0
