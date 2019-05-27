@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8632800413996296563}
   m_Layer: 0
   m_Name: devPrefab_StoneFloor_Quadruple
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,12 +99,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5938032996074795996, guid: bd1b18eab8544204faaa1d1ed10f80e6,
+    - target: {fileID: 2122399648249756689, guid: bd1b18eab8544204faaa1d1ed10f80e6,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2122399648249756689, guid: bd1b18eab8544204faaa1d1ed10f80e6,
+    - target: {fileID: 5938032996074795996, guid: bd1b18eab8544204faaa1d1ed10f80e6,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -184,12 +184,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5938032996074795996, guid: bd1b18eab8544204faaa1d1ed10f80e6,
+    - target: {fileID: 2122399648249756689, guid: bd1b18eab8544204faaa1d1ed10f80e6,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2122399648249756689, guid: bd1b18eab8544204faaa1d1ed10f80e6,
+    - target: {fileID: 5938032996074795996, guid: bd1b18eab8544204faaa1d1ed10f80e6,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0

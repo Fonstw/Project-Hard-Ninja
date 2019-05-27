@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5365182645050646566}
   m_Layer: 0
-  m_Name: debPrefab_StoneSlope_TurnLeft
-  m_TagString: Untagged
+  m_Name: devPrefab_StoneSlope_TurnLeft
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mat_PBR_Crystal
-  m_Shader: {fileID: -6465566751694194690, guid: c51c5f2ffaa2f3b4fab4f7f62bda10bf,
+  m_Name: mat_PBR_Crystal_2
+  m_Shader: {fileID: -6465566751694194690, guid: fea3e87c6466e00449fbf11ff63ecbc8,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -21,13 +21,13 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - Vector1_285CAC3E: 1
+    - Vector1_285CAC3E: 1.2
     - Vector1_43A2822A: 0.5
     - Vector1_63B5E521: 0.5
-    - Vector1_AE48A584: 0.5
-    - Vector1_D38A9CFD: 1.25
+    - Vector1_AE48A584: 0.2
+    - Vector1_D38A9CFD: 1
     - Vector1_D3DD80FD: 3
-    - Vector1_EE93ADB3: 3.5
+    - Vector1_EE93ADB3: 4
     m_Colors:
-    - Color_E60B0C0A: {r: 3.9999995, g: 0, b: 0.12970732, a: 1}
+    - Color_E60B0C0A: {r: 2.9960785, g: 0.8156863, b: 0, a: 1}
     - Vector2_5A17647F: {r: 0.01, g: 1, b: 0, a: 0}

@@ -87,6 +87,7 @@ MonoBehaviour:
   - {fileID: -7264120962026647989}
   - {fileID: 3958539477140810763}
   - {fileID: -7270830199755645004}
+  - {fileID: 626212119534872313}
 --- !u!114 &111290365645635140
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -129,6 +130,40 @@ MonoBehaviour:
     value: {fileID: 0}
     defaultState: 1
   opacity:
+    overrideState: 0
+    value: 1
+--- !u!114 &626212119534872313
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b77c5407dc277943b591ade9e6b18c5, type: 3}
+  m_Name: LensDistortion
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 13.8
+  intensityX:
+    overrideState: 0
+    value: 1
+  intensityY:
+    overrideState: 0
+    value: 1
+  centerX:
+    overrideState: 0
+    value: 0
+  centerY:
+    overrideState: 0
+    value: 0
+  scale:
     overrideState: 0
     value: 1
 --- !u!114 &3159243720640777809
@@ -197,7 +232,7 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   gradingMode:
-    overrideState: 0
+    overrideState: 1
     value: 1
   externalLut:
     overrideState: 0
@@ -233,7 +268,7 @@ MonoBehaviour:
     value: 1
   temperature:
     overrideState: 0
-    value: 0
+    value: 20
   tint:
     overrideState: 0
     value: 0
@@ -251,10 +286,10 @@ MonoBehaviour:
     value: 0
   postExposure:
     overrideState: 1
-    value: 1.25
+    value: 1.5
   contrast:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -5
   mixerRedOutRedIn:
     overrideState: 0
     value: 100

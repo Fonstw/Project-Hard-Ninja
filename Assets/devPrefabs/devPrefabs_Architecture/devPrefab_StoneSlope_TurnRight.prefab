@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3547510719827026677}
   m_Layer: 0
   m_Name: devPrefab_StoneSlope_TurnRight
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
