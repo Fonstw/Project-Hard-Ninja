@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 015eb13f12725d34c92993b59bee9512
+guid: 9ed489c410877aa4bac322d6d9ac2e00
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable:
@@ -35,11 +35,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Standing Melee Attack Backhand
+      name: Hip Hop Dancing
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 76
+      lastFrame: 414
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
