@@ -7,12 +7,12 @@ public class PlayerInteraction : MonoBehaviour
 
     public enum BeardTier { none = 0, stubble = 1, hipster = 2, viking = 3 };
 
-    [SerializeField] float maxLives, maxStamina;
+    [SerializeField] float maxLives, maxStamina, fallDepht;
     [SerializeField] bool pickaxe, shoes, invincibility;
     [SerializeField] BeardTier beardTier;
 
     float curLives, curStamina;
-    
+
     void Start()
     {
         // set playerprefs
@@ -54,11 +54,15 @@ public class PlayerInteraction : MonoBehaviour
         // set param current
         curLives = maxLives;
         curStamina = maxStamina;
+
+        // debug the fall depht
+        if (fallDepht <= 0)
+            fallDepht = 150;
     }
-    
+
     void Update()
     {
-        if (transform.position.y < -15)
+        if (transform.position.y < -fallDepht)
             Die();
     }
 
@@ -68,19 +72,24 @@ public class PlayerInteraction : MonoBehaviour
             TakeDamage(1);
     }
 
-    void Die()
+    public void Die()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void TakeDamage(float dmg)
     {
-        curLives -= dmg;
+        curLives = Mathf.Clamp(curLives-dmg, 0, maxLives);
 
         if (curLives <= 0)
             Die();
         else if (curLives > maxLives)
             curLives = maxLives;
+    }
+
+    public bool IsDigging()
+    {
+        return pickaxe && Input.GetButton("Dig");
     }
 
     public void GainPickaxe()

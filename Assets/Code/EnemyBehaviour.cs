@@ -9,17 +9,17 @@ public class EnemyBehaviour : MonoBehaviour
     float speed;
     bool right = true;
     Rigidbody rb;
-    
+
     void Start()
     {
         speed = walkSpeed;
         rb = GetComponent<Rigidbody>();
     }
-    
+
     void Update()
     {
         Patrol();
-        
+
         if (WhatISee() != "Floor")
             Turn();
     }

@@ -4,7 +4,7 @@ public class CameraBehaviour : MonoBehaviour
 {
     [SerializeField] Transform target;
     Vector3 startPos;
-    
+
     void Start()
     {
         if (target != null)
@@ -12,10 +12,10 @@ public class CameraBehaviour : MonoBehaviour
         else
             Debug.LogWarning("Please set " + name + "'s CameraBehaviour.target.");
     }
-    
+
     void Update()
     {
-        
+
     }
 
     public void ChangeRoom(Transform newRoom)

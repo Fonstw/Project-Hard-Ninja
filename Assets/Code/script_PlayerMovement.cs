@@ -45,10 +45,7 @@ public class script_PlayerMovement : MonoBehaviour
 
     bool bool_CheckIfGrounded()
     {
-        if (Physics.Raycast(transform.position, -Vector3.up, f_GroundedDistance))
-            return true;
-        else
-            return false;
+        return Physics.Raycast(transform.position, Vector3.down, f_GroundedDistance);
     }
 
     void function_GetInputs()
@@ -63,6 +60,7 @@ public class script_PlayerMovement : MonoBehaviour
             b_Jumping = false;
     }
 
+    // prevent player mistakes (eg. don't stop jumping if let go of button very short time)
     void function_Jump()
     {
         if (b_Jumping)
@@ -87,8 +85,7 @@ public class script_PlayerMovement : MonoBehaviour
 
     void function_Movement()
     {
-        RaycastHit ray_hitInfo;
-        if (!Physics.SphereCast(transform.position, .15f, v3_MovementDirection,out ray_hitInfo, .01f))
+        if (!Physics.SphereCast(transform.position, .15f, v3_MovementDirection,out RaycastHit ray_hitInfo, .01f))
         {
             comp_Rigidbody.velocity = new Vector3(v3_MovementDirection.x * f_MovementSpeed, comp_Rigidbody.velocity.y);
         }
