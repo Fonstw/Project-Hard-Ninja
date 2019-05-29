@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.070877485, g: 0.16771516, b: 0.15643519, a: 1}
+  m_IndirectSpecularColor: {r: 0.070877366, g: 0.16771486, b: 0.15643498, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4285,6 +4285,12 @@ Transform:
   m_Father: {fileID: 1265142643}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &867289991 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 963194228, guid: 63537d789e839df44982ff95301fbf28,
+    type: 3}
+  m_PrefabInstance: {fileID: 8128106335866582997}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &868339902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10758,6 +10764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tjc_Room_1
       objectReference: {fileID: 0}
+    - target: {fileID: 149343269, guid: 1108a0c587bf4334bb7727581030f5db, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 9017059725325668216, guid: 1108a0c587bf4334bb7727581030f5db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10857,10 +10867,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 149343269, guid: 1108a0c587bf4334bb7727581030f5db, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8535314099404835107, guid: 1108a0c587bf4334bb7727581030f5db,
         type: 3}
@@ -11062,12 +11068,12 @@ PrefabInstance:
     - target: {fileID: 6710873493530186769, guid: 63537d789e839df44982ff95301fbf28,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.88
+      value: -4.883
       objectReference: {fileID: 0}
     - target: {fileID: 6710873493530186769, guid: 63537d789e839df44982ff95301fbf28,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.824
+      value: 6.183
       objectReference: {fileID: 0}
     - target: {fileID: 6710873493530186769, guid: 63537d789e839df44982ff95301fbf28,
         type: 3}
@@ -11153,6 +11159,31 @@ PrefabInstance:
     - target: {fileID: 2054080546, guid: 63537d789e839df44982ff95301fbf28, type: 3}
       propertyPath: f_GroundedDistance
       value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 963194227, guid: 63537d789e839df44982ff95301fbf28, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 963194230, guid: 63537d789e839df44982ff95301fbf28, type: 3}
+      propertyPath: volumeLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 963194230, guid: 63537d789e839df44982ff95301fbf28, type: 3}
+      propertyPath: volumeTrigger
+      value: 
+      objectReference: {fileID: 867289991}
+    - target: {fileID: 963194230, guid: 63537d789e839df44982ff95301fbf28, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 963194230, guid: 63537d789e839df44982ff95301fbf28, type: 3}
+      propertyPath: m_Resources
+      value: 
+      objectReference: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4,
+        type: 2}
+    - target: {fileID: 963194230, guid: 63537d789e839df44982ff95301fbf28, type: 3}
+      propertyPath: antialiasingMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63537d789e839df44982ff95301fbf28, type: 3}
