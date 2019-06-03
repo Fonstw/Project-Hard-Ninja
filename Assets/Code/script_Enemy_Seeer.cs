@@ -45,6 +45,11 @@ public class script_Enemy_Seeer : MonoBehaviour
             Gizmos.DrawLine(transform.position, transform.position + new Vector3(f_patrolDistance, 0, 0));
             Gizmos.DrawWireSphere(transform.position + new Vector3(f_patrolDistance, 0, 0), .1f);
         }
+        else
+        {
+            Gizmos.DrawLine(v3_startPosition, v3_endPosition);
+            Gizmos.DrawWireSphere(v3_endPosition, .1f);
+        }
     }
 
     void Update()

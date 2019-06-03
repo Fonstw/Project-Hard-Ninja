@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 433521464745931071}
   - component: {fileID: 433521464745931065}
   - component: {fileID: 433521464745931070}
+  - component: {fileID: 1653397903}
   m_Layer: 0
   m_Name: devPrefab_Chest
   m_TagString: Untagged
@@ -45,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 058fb903ca91738459b85a7caa5c36a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  givesPickaxe: 1
+  givesPickaxe: 0
   givesShoes: 0
   setsBeardTo: -1
 --- !u!65 &433521464745931070
@@ -61,6 +62,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6718683, y: 0.34686232, z: 0.43748862}
   m_Center: {x: 0.0015625954, y: 0.17031598, z: -0.006250173}
+--- !u!135 &1653397903
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433521464745931068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &433521465715445545
 PrefabInstance:
   m_ObjectHideFlags: 0

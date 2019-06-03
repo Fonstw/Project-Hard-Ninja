@@ -9606,7 +9606,6 @@ GameObject:
   - component: {fileID: 2759737262656757263}
   - component: {fileID: 5943681087734129557}
   - component: {fileID: 1613485739418211486}
-  - component: {fileID: 1112994887704164740}
   m_Layer: 0
   m_Name: artPrefab_Wisp
   m_TagString: Untagged
@@ -9677,19 +9676,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &1112994887704164740
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4150261675161141463}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 3
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5354161899211746038
 GameObject:
   m_ObjectHideFlags: 0
