@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4078138828397833872}
   - component: {fileID: 4078138828397833876}
   m_Layer: 0
-  m_Name: Earth
+  m_Name: devPrefab_Earth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4078138828397833875}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.25, y: -0.15, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.8}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.25}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: c770262c08b9aff47ba572dcb3068d5d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
