@@ -72,7 +72,7 @@ public class script_PlayerMovement : MonoBehaviour
             }
             else if (f_JumpTimer > 0)
             {
-                comp_Rigidbody.AddForce(Vector3.up * f_JumpForce * f_JumpTimer * .15f);
+                comp_Rigidbody.AddForce(Vector3.up * f_JumpForce * f_JumpTimer * .05f);
                 f_JumpTimer -= Time.deltaTime;
             }
             else

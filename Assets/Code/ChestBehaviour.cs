@@ -9,7 +9,7 @@ public class ChestBehaviour : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (!used && Input.GetButtonDown("Jump") && other.tag == "Player")
+        if (!used && Input.GetButton("Interact") && other.tag == "Player")
         {
             GetComponentInChildren<script_ac>().bool_Toggle = true;
 

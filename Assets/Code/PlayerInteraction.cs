@@ -89,7 +89,7 @@ public class PlayerInteraction : MonoBehaviour
 
     public bool IsDigging()
     {
-        return pickaxe && Input.GetButton("Dig");
+        return pickaxe && Input.GetButton("Interact");
     }
 
     public void GainPickaxe()
