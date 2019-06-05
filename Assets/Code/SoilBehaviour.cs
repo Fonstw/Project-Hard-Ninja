@@ -24,7 +24,8 @@ public class SoilBehaviour : MonoBehaviour
 
             if (player.IsDigging())
             {
-                print("Hey lonely digger!");
+                // this at least 'works', it's stand-in
+                Destroy(gameObject);
 
                 /*if holding direction
                       go into that direction
