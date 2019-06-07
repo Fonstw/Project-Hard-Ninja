@@ -24,6 +24,14 @@ public class script_PlayerMovement : MonoBehaviour
     Rigidbody comp_Rigidbody;
     Collider comp_BoxCollider;
 
+    Animator anim;
+
+
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     void Start()
     {
         f_JumpTimer = f_BaseJumpTimer;
@@ -53,10 +61,16 @@ public class script_PlayerMovement : MonoBehaviour
         //input for movement
         v3_MovementDirection = new Vector3(Input.GetAxis("Move"), 0);
 
+
+
         //input for jumping
         if (Input.GetButtonDown("Jump") && bool_CheckIfGrounded())
+ 
             b_Jumping = true;
-        else if (Input.GetButtonUp("Jump"))
+        
+            
+
+            else if (Input.GetButtonUp("Jump"))
             b_Jumping = false;
     }
 
@@ -88,6 +102,8 @@ public class script_PlayerMovement : MonoBehaviour
         if (!Physics.SphereCast(transform.position, .15f, v3_MovementDirection,out RaycastHit ray_hitInfo, .01f))
         {
             comp_Rigidbody.velocity = new Vector3(v3_MovementDirection.x * f_MovementSpeed, comp_Rigidbody.velocity.y);
+
+
         }
     }
 }
