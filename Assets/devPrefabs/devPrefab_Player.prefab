@@ -163,7 +163,6 @@ GameObject:
   - component: {fileID: 2828608011402184007}
   - component: {fileID: 2054080542}
   - component: {fileID: 2054080546}
-  - component: {fileID: 2687281794880387725}
   - component: {fileID: 2054080538}
   m_Layer: 9
   m_Name: devPrefab_Player
@@ -266,19 +265,6 @@ MonoBehaviour:
   b_Jumping: 0
   f_BaseJumpTimer: 0.4
   f_JumpTimer: 0.4
---- !u!65 &2687281794880387725
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643202735059070729}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.21, y: 0.15, z: 0.1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &2054080538
 BoxCollider:
   m_ObjectHideFlags: 0
