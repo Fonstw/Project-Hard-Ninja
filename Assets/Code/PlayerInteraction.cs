@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerInteraction : MonoBehaviour
 {
@@ -10,11 +11,14 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] float maxLives, maxStamina, fallDepht;
     [SerializeField] bool pickaxe, shoes, invincibility;
     [SerializeField] BeardTier beardTier;
+    [SerializeField] private int chests = 0;
+    [SerializeField] private Text scoreText;
 
     float curLives, curStamina;
 
     void Start()
     {
+        scoreText = FindObjectOfType<Text>();
         // set playerprefs
         if (demoMode || PlayerPrefs.GetInt("pickaxe", -1) == -1)
             PlayerPrefs.SetInt("pickaxe", 0);
@@ -64,6 +68,7 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (transform.position.y < -fallDepht)
             Die();
+        scoreText.text = "Chests opened: " + chests;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -127,5 +132,10 @@ public class PlayerInteraction : MonoBehaviour
             default:
                 return false;
         }
+    }
+
+    public void addChest()
+    {
+        chests++;
     }
 }
