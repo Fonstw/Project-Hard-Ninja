@@ -59,6 +59,9 @@ public class script_PlayerMovement : MonoBehaviour
 
     void function_GetInputs()
     {
+        //interact animation
+        if (Input.GetButtonDown("Interact")) function_PlayAnimation("Attack");
+
         //input for movement
         v3_MovementDirection = new Vector3(Input.GetAxis("Move"), 0);
 
