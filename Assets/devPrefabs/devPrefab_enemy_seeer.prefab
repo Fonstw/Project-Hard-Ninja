@@ -171,8 +171,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   f_patrolDistance: 1
-  f_baseSpeed: 1
-  f_runSpeedMultiplier: 6
+  f_baseSpeed: 0.3
+  f_runSpeedMultiplier: 8
   f_rotateSpeed: 5
   f_baseStareTimer: 3
   b_moving: 1
@@ -192,8 +192,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 0.3, z: 1}
-  m_Center: {x: 1, y: 0, z: 0}
+  m_Size: {x: 2.956746, y: 0.3, z: 1}
+  m_Center: {x: 1.478373, y: 0, z: 0}
 --- !u!82 &5405730973061318555
 AudioSource:
   m_ObjectHideFlags: 0
@@ -298,6 +298,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6851949256628036081}
     m_Modifications:
+    - target: {fileID: 4227280228752928311, guid: 05b1d1fc7c2bf4345b7c7732f5d0081f,
+        type: 3}
+      propertyPath: m_Name
+      value: artPrefab_Monster_Ball
+      objectReference: {fileID: 0}
     - target: {fileID: 932536633021914148, guid: 05b1d1fc7c2bf4345b7c7732f5d0081f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -352,11 +357,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4227280228752928311, guid: 05b1d1fc7c2bf4345b7c7732f5d0081f,
-        type: 3}
-      propertyPath: m_Name
-      value: artPrefab_Monster_Ball
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05b1d1fc7c2bf4345b7c7732f5d0081f, type: 3}
