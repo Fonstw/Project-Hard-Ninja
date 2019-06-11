@@ -171,8 +171,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   f_patrolDistance: 1
-  f_baseSpeed: 0.3
-  f_runSpeedMultiplier: 8
+  f_baseSpeed: 1
+  f_runSpeedMultiplier: 7
   f_rotateSpeed: 5
   f_baseStareTimer: 3
   b_moving: 1
