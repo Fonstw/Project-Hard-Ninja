@@ -2465,7 +2465,7 @@ PrefabInstance:
     - target: {fileID: 6851949256628036081, guid: e6bc913a9b64c05418a049305b14c379,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.126
+      value: 1.823
       objectReference: {fileID: 0}
     - target: {fileID: 6851949256628036081, guid: e6bc913a9b64c05418a049305b14c379,
         type: 3}
@@ -28258,7 +28258,12 @@ PrefabInstance:
     - target: {fileID: 226351552106921978, guid: 8974fc2788dc2c94c93a3357fcb94e08,
         type: 3}
       propertyPath: f_runSpeedMultiplier
-      value: 8
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 226351552106921978, guid: 8974fc2788dc2c94c93a3357fcb94e08,
+        type: 3}
+      propertyPath: f_patrolDistance
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8974fc2788dc2c94c93a3357fcb94e08, type: 3}
@@ -29045,12 +29050,17 @@ PrefabInstance:
     - target: {fileID: 6998409193728320296, guid: b125262f901b93d4486f29f1fd203110,
         type: 3}
       propertyPath: f_runSpeedMultiplier
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6998409193728320296, guid: b125262f901b93d4486f29f1fd203110,
         type: 3}
       propertyPath: b_movingRight
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998409193728320296, guid: b125262f901b93d4486f29f1fd203110,
+        type: 3}
+      propertyPath: b_seesPlayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4469923368372958660, guid: b125262f901b93d4486f29f1fd203110,
         type: 3}
