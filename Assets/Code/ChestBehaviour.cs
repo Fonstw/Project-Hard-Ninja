@@ -20,7 +20,7 @@ public class ChestBehaviour : MonoBehaviour
             
             Vector3 reSpawn = new Vector3(transform.position.x, transform.position.y, other.transform.position.z);
             other.GetComponent<PlayerInteraction>().SetCheckPoint(reSpawn);
-            
+            GetComponent<AudioSource>().Play();
             used = true;
         }
     }
