@@ -15,6 +15,7 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private Text scoreText;
 
     float curLives, curStamina;
+    Vector3 checkPoint;
 
     void Start()
     {
@@ -79,7 +80,15 @@ public class PlayerInteraction : MonoBehaviour
 
     public void Die()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
+        transform.position = checkPoint;
+    }
+
+    public void SetCheckPoint(Vector3 newCoords)
+    {
+        checkPoint = newCoords;
     }
 
     public void TakeDamage(float dmg)
