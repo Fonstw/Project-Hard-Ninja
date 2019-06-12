@@ -17,8 +17,9 @@ public class ChestBehaviour : MonoBehaviour
             if (givesShoes) other.GetComponent<PlayerInteraction>().GainShoes();
             if (setsBeardTo >= 0) other.GetComponent<PlayerInteraction>().SetBeard(setsBeardTo);
             other.GetComponent<PlayerInteraction>().addChest();
-
-            other.GetComponent<PlayerInteraction>().SetCheckPoint(transform.position);
+            
+            Vector3 reSpawn = new Vector3(transform.position.x, transform.position.y, other.transform.position.z);
+            other.GetComponent<PlayerInteraction>().SetCheckPoint(reSpawn);
             
             used = true;
         }
