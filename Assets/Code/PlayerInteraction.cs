@@ -19,6 +19,8 @@ public class PlayerInteraction : MonoBehaviour
 
     void Start()
     {
+        checkPoint = transform.position;
+
         scoreText = FindObjectOfType<Text>();
         // set playerprefs
         if (demoMode || PlayerPrefs.GetInt("pickaxe", -1) == -1)
